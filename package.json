@@ -1,0 +1,30 @@
+{
+  "name": "sample-graphql-api",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablo-psi/sample-graphql-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablo-psi/sample-graphql-api/issues"
+  },
+  "homepage": "https://github.com/pablo-psi/sample-graphql-api#readme",
+  "devDependencies": {
+    "eslint": "^8.33.0"
+  },
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "graphql": "^16.6.0",
+    "uuid": "^9.0.0"
+  }
+}
